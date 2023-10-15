@@ -28,3 +28,6 @@ def generate_launch_description():
             arguments=['-resolution', '0.05', '-publish_period_sec', '1.0']
         ),
     ]) 
+
+# If you want to save the map, just execute:
+# ros2 run nav2_map_server map_saver_cli -f [name]
